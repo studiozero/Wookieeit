@@ -1,0 +1,42 @@
+%html
+	%head
+		%title Wookie It
+		%link{ rel: "stylesheet", type: "text/css", href: "/css/style.css" }
+		%link{ rel: "stylesheet", type: "text/css", href: "http://fonts.googleapis.com/css?family=Lobster" }
+
+	%body
+
+		%div.container
+
+			%div.main-wrapper
+				%div.split
+					%h1.main-heading Wookiee-It
+					%h2 Wyaaaaaa. Ruh ruh.
+
+					%p Let the Wookiee be your friend and use these images as the best placeholders in your designs and code.
+
+					%div.examples
+						%ul
+							%li
+								like this:
+								%a{:href => "/200/300"} "/200/300"
+							%li
+								or grayscale:
+								%a{:href => "/g/200/300"} "/g/200/300"
+							%li
+								or specify which one:
+								%a{:href => "/specific/6"} "/specific/6"
+					
+					%div.quad
+						%img{:src => "/200/150"}
+					%div.quad
+						%img{:src => "/g/200/150"}
+					%div.quad.long
+						%img{:src => "/400/150"}
+
+				%div.split
+					%img.main-image{:src => "images/main/chewbacca.jpg"}
+
+			%p.footer 
+				Coded with ❤ by
+				%a{:href => "http://studiozero.co"}Studio Zero
